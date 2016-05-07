@@ -7,7 +7,8 @@ try {
       require('./_codemap'),
       require('motley-auth'),
       require('motley-buffet'),
-      require('motley-json'),
+      require('motley-cluster'),
+      require('motley-mongo'),
       require('motley-templ')
       // require()'ed motley plugins go here.
     ]
