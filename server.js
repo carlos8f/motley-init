@@ -8,7 +8,7 @@ try {
       require('motley-auth'),
       require('motley-buffet'),
       require('motley-cluster'),
-      require('motley-mongo'),
+      require('motley-redis'),
       require('motley-templ')
       // require()'ed motley plugins go here.
     ]
